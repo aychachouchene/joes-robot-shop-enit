@@ -61,9 +61,11 @@
           "configurations": {
             "production": {
               "browserTarget": "joes-robot-shop-enit:build:production"
+              
             },
             "development": {
-              "browserTarget": "joes-robot-shop-enit:build:development"
+              "browserTarget": "joes-robot-shop-enit:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
